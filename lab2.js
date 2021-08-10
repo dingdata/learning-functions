@@ -4,6 +4,11 @@ const calendar = {
   getDate: function () {
     return new Date().toDateString();
   },
+
+  getTime: function () {
+    return new Date().toTimeString();
+  }
 };
 
 console.log(calendar.getDate());
+console.log(calendar.getTime());
